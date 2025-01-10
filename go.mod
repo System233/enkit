@@ -4,10 +4,10 @@ go 1.23.0
 
 toolchain go1.23.3
 
-replace github.com/GoogleCloudPlatform/cloud-build-notifiers => github.com/minor-fixes/cloud-build-notifiers v0.0.0-20230424124639-02281bcdd3d5
+//replace github.com/GoogleCloudPlatform/cloud-build-notifiers => github.com/minor-fixes/cloud-build-notifiers v0.0.0-20230424124639-02281bcdd3d5
 
 // Required by buildbarn ecosystem
-replace github.com/grpc-ecosystem/grpc-gateway/v2 => github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.1
+//replace github.com/grpc-ecosystem/grpc-gateway/v2 => github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.1
 
 require (
 	cloud.google.com/go/bigquery v1.64.0
@@ -15,7 +15,7 @@ require (
 	cloud.google.com/go/datastore v1.20.0
 	cloud.google.com/go/pubsub v1.45.1
 	cloud.google.com/go/storage v1.47.0
-	github.com/GoogleCloudPlatform/cloud-build-notifiers v0.0.0-00010101000000-000000000000
+	github.com/minor-fixes/cloud-build-notifiers v0.0.0-20230424124639-02281bcdd3d5
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/Microsoft/go-winio v0.6.1
 	github.com/bazelbuild/buildtools v0.0.0-20240918101019-be1c24cc9a44
