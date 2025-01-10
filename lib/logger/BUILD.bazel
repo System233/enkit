@@ -6,7 +6,7 @@ go_library(
         "accumulator.go",
         "logger.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/logger",
+    importpath = "github.com/System233/enkit/lib/logger",
     visibility = ["//visibility:public"],
 )
 

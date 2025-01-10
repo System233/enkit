@@ -10,8 +10,8 @@ import (
 
 	"cloud.google.com/go/datastore"
 	"cloud.google.com/go/storage"
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/logger"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 )

@@ -7,7 +7,7 @@ go_library(
         "metrics.go",
         "register.go",
     ],
-    importpath = "github.com/enfabrica/enkit/machinist/polling",
+    importpath = "github.com/System233/enkit/machinist/polling",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/goroutine",

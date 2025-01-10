@@ -5,7 +5,7 @@ package atesting
 import (
 	"bufio"
 	"fmt"
-	"github.com/enfabrica/enkit/lib/knetwork"
+	"github.com/System233/enkit/lib/knetwork"
 	"log"
 	"net"
 	"os/exec"

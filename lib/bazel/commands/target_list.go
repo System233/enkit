@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
 )
 
 // Assume that tests end in `_test`

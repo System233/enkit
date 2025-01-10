@@ -19,7 +19,7 @@ load("@rules_python//python/pip_install:requirements.bzl", "compile_pip_requirem
 #
 
 # Set the prefix for this repo
-# gazelle:prefix github.com/enfabrica/enkit
+# gazelle:prefix github.com/System233/enkit
 
 # When adding protos used by Go, typically the import path is the same as the
 # proto's containing dir. However, this will confuse Go tooling (`go mod tidy`,
@@ -39,7 +39,7 @@ load("@rules_python//python/pip_install:requirements.bzl", "compile_pip_requirem
 gazelle(
     name = "gazelle",
     command = "fix",
-    prefix = "github.com/enfabrica/enkit",
+    prefix = "github.com/System233/enkit",
 )
 
 gazelle(
@@ -72,7 +72,7 @@ gazelle(
 # gazelle:resolve proto proto google/rpc/status.proto @googleapis//google/rpc:status_proto
 # gazelle:resolve proto go google/rpc/status.proto @org_golang_google_genproto_googleapis_rpc//status
 
-# gazelle:resolve go github.com/enfabrica/enkit/auth/server/assets/templates //auth/server/assets/templates
+# gazelle:resolve go github.com/System233/enkit/auth/server/assets/templates //auth/server/assets/templates
 
 exports_files(
     [

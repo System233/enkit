@@ -4,7 +4,7 @@ package klog
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/kflags"
 	"github.com/tchap/zapext/zapsyslog"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

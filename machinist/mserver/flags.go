@@ -1,7 +1,7 @@
 package mserver
 
 import (
-	"github.com/enfabrica/enkit/machinist/config"
+	"github.com/System233/enkit/machinist/config"
 )
 
 type Modifier func(s *ControlPlane) error

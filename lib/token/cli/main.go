@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/kflags/kcobra"
-	"github.com/enfabrica/enkit/lib/srand"
-	"github.com/enfabrica/enkit/lib/token"
+	"github.com/System233/enkit/lib/kflags/kcobra"
+	"github.com/System233/enkit/lib/srand"
+	"github.com/System233/enkit/lib/token"
 	"github.com/spf13/cobra"
 	"io/ioutil"
 	"math/rand"

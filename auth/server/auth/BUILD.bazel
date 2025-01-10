@@ -6,7 +6,7 @@ go_library(
         "auth.go",
         "factory.go",
     ],
-    importpath = "github.com/enfabrica/enkit/auth/server/auth",
+    importpath = "github.com/System233/enkit/auth/server/auth",
     visibility = ["//visibility:public"],
     deps = [
         "//auth/common",

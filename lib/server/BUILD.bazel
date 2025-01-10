@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "server",
     srcs = ["run.go"],
-    importpath = "github.com/enfabrica/enkit/lib/server",
+    importpath = "github.com/System233/enkit/lib/server",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_improbable_eng_grpc_web//go/grpcweb",

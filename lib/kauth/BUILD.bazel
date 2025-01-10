@@ -6,7 +6,7 @@ go_library(
         "login.go",
         "save.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/kauth",
+    importpath = "github.com/System233/enkit/lib/kauth",
     visibility = ["//visibility:public"],
     deps = [
         "//auth/common",

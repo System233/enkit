@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	ppb "github.com/enfabrica/enkit/enkit/proto"
-	"github.com/enfabrica/enkit/lib/goroutine"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/multierror"
+	ppb "github.com/System233/enkit/enkit/proto"
+	"github.com/System233/enkit/lib/goroutine"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/multierror"
 )
 
 type SourceOptions struct {

@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/multierror"
-	"github.com/enfabrica/enkit/lib/retry"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/retry"
 	"github.com/mitchellh/mapstructure"
 )
 

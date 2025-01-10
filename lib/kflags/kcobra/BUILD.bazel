@@ -7,7 +7,7 @@ go_library(
         "defaults.go",
         "hidden.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/kflags/kcobra",
+    importpath = "github.com/System233/enkit/lib/kflags/kcobra",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/kflags",

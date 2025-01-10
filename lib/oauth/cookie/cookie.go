@@ -2,7 +2,7 @@
 package cookie
 
 import (
-	"github.com/enfabrica/enkit/lib/khttp/kcookie"
+	"github.com/System233/enkit/lib/khttp/kcookie"
 	"net/http"
 )
 

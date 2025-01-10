@@ -8,7 +8,7 @@ go_library(
         "flags.go",
         "records.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/knetwork/kdns",
+    importpath = "github.com/System233/enkit/lib/knetwork/kdns",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/goroutine",

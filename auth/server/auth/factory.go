@@ -3,8 +3,8 @@ package auth
 import (
 	"crypto/rsa"
 	"fmt"
-	"github.com/enfabrica/enkit/lib/kcerts"
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/kcerts"
+	"github.com/System233/enkit/lib/logger"
 	"golang.org/x/crypto/ed25519"
 	"golang.org/x/crypto/ssh"
 	"math/rand"
@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/enfabrica/enkit/auth/common"
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/auth/common"
+	"github.com/System233/enkit/lib/kflags"
 	"golang.org/x/crypto/nacl/box"
 )
 

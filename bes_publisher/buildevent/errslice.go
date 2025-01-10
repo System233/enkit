@@ -1,7 +1,7 @@
 package buildevent
 
 import (
-	"github.com/enfabrica/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/multierror"
 )
 
 // errslice accumulates errors into a slice in a threadsafe manner.

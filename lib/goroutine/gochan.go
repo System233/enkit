@@ -1,7 +1,7 @@
 package goroutine
 
 import (
-	"github.com/enfabrica/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/multierror"
 )
 
 // ErrorChannel is a simple "chan error" with a couple convenience methods,

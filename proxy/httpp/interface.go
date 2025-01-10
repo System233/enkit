@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/enfabrica/enkit/lib/khttp"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/oauth"
-	"github.com/enfabrica/enkit/lib/slice"
+	"github.com/System233/enkit/lib/khttp"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/oauth"
+	"github.com/System233/enkit/lib/slice"
 )
 
 type HostPath struct {

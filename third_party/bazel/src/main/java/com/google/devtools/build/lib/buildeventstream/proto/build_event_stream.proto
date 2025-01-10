@@ -22,7 +22,7 @@ import "third_party/bazel/src/main/protobuf/command_line.proto";
 import "third_party/bazel/src/main/protobuf/failure_details.proto";
 import "third_party/bazel/src/main/protobuf/invocation_policy.proto";
 
-option go_package = "github.com/enfabrica/enkit/third_party/bazel/proto";
+option go_package = "github.com/System233/enkit/third_party/bazel/proto";
 option java_outer_classname = "BuildEventStreamProtos";
 
 // Identifier for a build event. It is deliberately structured to also provide

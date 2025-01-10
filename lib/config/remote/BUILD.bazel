@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "remote",
     srcs = ["remote.go"],
-    importpath = "github.com/enfabrica/enkit/lib/config/remote",
+    importpath = "github.com/System233/enkit/lib/config/remote",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/kflags",

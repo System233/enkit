@@ -8,7 +8,7 @@ go_library(
         "queue.go",
         "service.go",
     ],
-    importpath = "github.com/enfabrica/enkit/flextape/service",
+    importpath = "github.com/System233/enkit/flextape/service",
     visibility = ["//visibility:public"],
     deps = [
         "//flextape/proto:go_default_library",

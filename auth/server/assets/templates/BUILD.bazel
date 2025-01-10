@@ -8,7 +8,7 @@ qtpl_go_library(
         "message.qtpl",
         "struct.qtpl",
     ],
-    importpath = "github.com/enfabrica/enkit/auth/server/assets/templates",
+    importpath = "github.com/System233/enkit/auth/server/assets/templates",
     visibility = ["//visibility:public"],
     deps = [
         "//astore/rpc/astore",

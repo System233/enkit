@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	apb "github.com/enfabrica/enkit/allocation_manager/proto"
-	"github.com/enfabrica/enkit/lib/logger"
+	apb "github.com/System233/enkit/allocation_manager/proto"
+	"github.com/System233/enkit/lib/logger"
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

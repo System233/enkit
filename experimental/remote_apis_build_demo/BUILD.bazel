@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "remote_apis_build_demo_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/experimental/remote_apis_build_demo",
+    importpath = "github.com/System233/enkit/experimental/remote_apis_build_demo",
     visibility = ["//visibility:private"],
     deps = [
         "@com_github_bazelbuild_remote_apis//build/bazel/remote/execution/v2:execution",

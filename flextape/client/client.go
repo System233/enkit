@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	fpb "github.com/enfabrica/enkit/flextape/proto"
+	fpb "github.com/System233/enkit/flextape/proto"
 )
 
 var runCommand = func(ctx context.Context, result chan error, cmd string, args ...string) {

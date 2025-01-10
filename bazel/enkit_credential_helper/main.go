@@ -11,10 +11,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/enfabrica/enkit/lib/config/defcon"
-	"github.com/enfabrica/enkit/lib/config/identity"
-	"github.com/enfabrica/enkit/lib/khttp/kcookie"
-	"github.com/enfabrica/enkit/lib/stamp"
+	"github.com/System233/enkit/lib/config/defcon"
+	"github.com/System233/enkit/lib/config/identity"
+	"github.com/System233/enkit/lib/khttp/kcookie"
+	"github.com/System233/enkit/lib/stamp"
 )
 
 var friendlyCredsError = strings.TrimSpace(`

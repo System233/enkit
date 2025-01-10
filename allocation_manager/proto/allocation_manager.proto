@@ -4,7 +4,7 @@ package allocation_manager.proto;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/enfabrica/enkit/allocation_manager/proto";
+option go_package = "github.com/System233/enkit/allocation_manager/proto";
 
 // Describes a vendor-agnostic frontend for allocating licenses to hardware tool
 // command invocations.

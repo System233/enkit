@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "goroutine",
     srcs = ["gochan.go"],
-    importpath = "github.com/enfabrica/enkit/lib/goroutine",
+    importpath = "github.com/System233/enkit/lib/goroutine",
     visibility = ["//visibility:public"],
     deps = ["//lib/multierror"],
 )

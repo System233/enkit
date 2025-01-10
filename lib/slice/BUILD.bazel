@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "slice",
     srcs = ["slice.go"],
-    importpath = "github.com/enfabrica/enkit/lib/slice",
+    importpath = "github.com/System233/enkit/lib/slice",
     visibility = ["//visibility:public"],
 )
 

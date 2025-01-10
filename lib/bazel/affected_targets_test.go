@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	bpb "github.com/enfabrica/enkit/lib/bazel/proto"
-	"github.com/enfabrica/enkit/lib/errdiff"
-	"github.com/enfabrica/enkit/lib/testutil"
+	bpb "github.com/System233/enkit/lib/bazel/proto"
+	"github.com/System233/enkit/lib/errdiff"
+	"github.com/System233/enkit/lib/testutil"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/proto"

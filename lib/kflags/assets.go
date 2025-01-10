@@ -1,7 +1,7 @@
 package kflags
 
 import (
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/logger"
 	"path/filepath"
 	"strings"
 )

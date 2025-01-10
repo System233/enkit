@@ -12,7 +12,7 @@ go_library(
         "tag.go",
         "upload.go",
     ],
-    importpath = "github.com/enfabrica/enkit/astore/client/commands",
+    importpath = "github.com/System233/enkit/astore/client/commands",
     visibility = ["//visibility:public"],
     deps = [
         "//astore/client/astore",

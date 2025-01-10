@@ -8,7 +8,7 @@ go_library(
         "untar.go",
         "unzip.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/karchive",
+    importpath = "github.com/System233/enkit/lib/karchive",
     visibility = ["//visibility:public"],
     deps = ["@com_github_ulikunitz_xz//:xz"],
 )

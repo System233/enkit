@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/config/marshal"
+	"github.com/System233/enkit/lib/config/marshal"
 )
 
 type SimpleStore struct {

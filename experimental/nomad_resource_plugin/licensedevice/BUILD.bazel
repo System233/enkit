@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "licensedevice",
     srcs = ["plugin.go"],
-    importpath = "github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice",
+    importpath = "github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice",
     visibility = ["//visibility:public"],
     deps = [
         "//experimental/nomad_resource_plugin/licensedevice/docker",

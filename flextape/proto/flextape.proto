@@ -4,7 +4,7 @@ package flextape.proto;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/enfabrica/enkit/flextape/proto";
+option go_package = "github.com/System233/enkit/flextape/proto";
 
 // Describes a vendor-agnostic frontend for allocating licenses to hardware tool
 // command invocations.

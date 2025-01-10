@@ -1,4 +1,4 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/enfabrica/enkit/lib/github.svg)](https://pkg.go.dev/github.com/enfabrica/enkit/lib/github)
+[![Go Reference](https://pkg.go.dev/badge/github.com/System233/enkit/lib/github.svg)](https://pkg.go.dev/github.com/System233/enkit/lib/github)
 
 # Overview
 
@@ -359,4 +359,4 @@ build id as a key is update throughout the build.
 # Using staco as a library
 
 All the code behind staco can be used as a library. The go documentation is
-available on godoc, at [https://pkg.go.dev/github.com/enfabrica/enkit/lib/github](https://pkg.go.dev/github.com/enfabrica/enkit/lib/github).
+available on godoc, at [https://pkg.go.dev/github.com/System233/enkit/lib/github](https://pkg.go.dev/github.com/System233/enkit/lib/github).

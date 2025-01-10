@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "protocfg",
     srcs = ["cfg.go"],
-    importpath = "github.com/enfabrica/enkit/lib/protocfg",
+    importpath = "github.com/System233/enkit/lib/protocfg",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_google_go_jsonnet//:go-jsonnet",

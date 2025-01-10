@@ -12,12 +12,12 @@ import (
 	"regexp"
 	"strings"
 
-	apb "github.com/enfabrica/enkit/astore/rpc/astore"
-	"github.com/enfabrica/enkit/lib/client"
-	"github.com/enfabrica/enkit/lib/client/ccontext"
-	"github.com/enfabrica/enkit/lib/grpcwebclient"
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/progress"
+	apb "github.com/System233/enkit/astore/rpc/astore"
+	"github.com/System233/enkit/lib/client"
+	"github.com/System233/enkit/lib/client/ccontext"
+	"github.com/System233/enkit/lib/grpcwebclient"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/progress"
 
 	"github.com/go-git/go-git/v5"
 	"google.golang.org/grpc"

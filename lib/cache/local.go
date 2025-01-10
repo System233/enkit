@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/kflags"
 	"github.com/kirsle/configdir"
 )
 

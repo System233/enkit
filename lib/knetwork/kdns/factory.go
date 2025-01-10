@@ -1,7 +1,7 @@
 package kdns
 
 import (
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/logger"
 	"log"
 	"net"
 )

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "kcache",
     srcs = ["cache.go"],
-    importpath = "github.com/enfabrica/enkit/lib/khttp/kcache",
+    importpath = "github.com/System233/enkit/lib/khttp/kcache",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/cache",

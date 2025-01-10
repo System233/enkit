@@ -5,7 +5,7 @@ load("//bazel/utils/container:container.bzl", "container_image", "container_push
 go_library(
     name = "k8s_dummy_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/infra/k8s_dummy",
+    importpath = "github.com/System233/enkit/infra/k8s_dummy",
     visibility = ["//visibility:private"],
     deps = [
         "//lib/metrics",

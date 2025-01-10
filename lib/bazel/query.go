@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	bpb "github.com/enfabrica/enkit/lib/bazel/proto"
-	"github.com/enfabrica/enkit/lib/proto/delimited"
+	bpb "github.com/System233/enkit/lib/bazel/proto"
+	"github.com/System233/enkit/lib/proto/delimited"
 
 	"google.golang.org/protobuf/proto"
 )

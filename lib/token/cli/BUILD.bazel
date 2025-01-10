@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "cli_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/lib/token/cli",
+    importpath = "github.com/System233/enkit/lib/token/cli",
     visibility = ["//visibility:private"],
     deps = [
         "//lib/kflags/kcobra",

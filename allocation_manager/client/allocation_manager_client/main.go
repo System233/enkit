@@ -12,9 +12,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/enfabrica/enkit/allocation_manager/client"
-	apb "github.com/enfabrica/enkit/allocation_manager/proto"
-	"github.com/enfabrica/enkit/allocation_manager/topology"
+	"github.com/System233/enkit/allocation_manager/client"
+	apb "github.com/System233/enkit/allocation_manager/proto"
+	"github.com/System233/enkit/allocation_manager/topology"
 
 	//	"github.com/google/uuid"
 	"google.golang.org/grpc"

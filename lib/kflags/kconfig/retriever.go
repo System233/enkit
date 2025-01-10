@@ -2,13 +2,13 @@ package kconfig
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/cache"
-	"github.com/enfabrica/enkit/lib/khttp/downloader"
-	"github.com/enfabrica/enkit/lib/khttp/kcache"
-	"github.com/enfabrica/enkit/lib/khttp/protocol"
-	"github.com/enfabrica/enkit/lib/khttp/workpool"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/retry"
+	"github.com/System233/enkit/lib/cache"
+	"github.com/System233/enkit/lib/khttp/downloader"
+	"github.com/System233/enkit/lib/khttp/kcache"
+	"github.com/System233/enkit/lib/khttp/protocol"
+	"github.com/System233/enkit/lib/khttp/workpool"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/retry"
 
 	"crypto/sha256"
 	"encoding/base64"

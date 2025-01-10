@@ -3,7 +3,7 @@ package kdns
 import (
 	"errors"
 	"fmt"
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/logger"
 	"github.com/miekg/dns"
 	"strings"
 )

@@ -11,8 +11,8 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/enfabrica/enkit/lib/metrics"
-	"github.com/enfabrica/enkit/lib/server"
+	"github.com/System233/enkit/lib/metrics"
+	"github.com/System233/enkit/lib/server"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

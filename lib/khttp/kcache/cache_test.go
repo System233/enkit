@@ -1,9 +1,9 @@
 package kcache
 
 import (
-	"github.com/enfabrica/enkit/lib/cache"
-	"github.com/enfabrica/enkit/lib/khttp/ktest"
-	"github.com/enfabrica/enkit/lib/khttp/protocol"
+	"github.com/System233/enkit/lib/cache"
+	"github.com/System233/enkit/lib/khttp/ktest"
+	"github.com/System233/enkit/lib/khttp/protocol"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"

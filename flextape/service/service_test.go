@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	fpb "github.com/enfabrica/enkit/flextape/proto"
-	"github.com/enfabrica/enkit/lib/errdiff"
-	"github.com/enfabrica/enkit/lib/testutil"
+	fpb "github.com/System233/enkit/flextape/proto"
+	"github.com/System233/enkit/lib/errdiff"
+	"github.com/System233/enkit/lib/testutil"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/prashantv/gostub"

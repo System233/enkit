@@ -17,10 +17,10 @@ import (
 	// use the stdlib
 	"golang.org/x/exp/slog"
 
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/docker"
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/sqldb"
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/types"
-	"github.com/enfabrica/enkit/lib/str"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/docker"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/sqldb"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/types"
+	"github.com/System233/enkit/lib/str"
 )
 
 var metricPluginCounter = promauto.NewCounterVec(prometheus.CounterOpts{

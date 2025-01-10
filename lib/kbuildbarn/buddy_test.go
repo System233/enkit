@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/enfabrica/enkit/lib/bes"
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
-	bbpb "github.com/enfabrica/enkit/third_party/buildbuddy/proto"
+	"github.com/System233/enkit/lib/bes"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
+	bbpb "github.com/System233/enkit/third_party/buildbuddy/proto"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

@@ -9,9 +9,9 @@ import (
 	"net/http/cookiejar"
 	"net/url"
 
-	"github.com/enfabrica/enkit/lib/client"
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
-	bbpb "github.com/enfabrica/enkit/third_party/buildbuddy/proto"
+	"github.com/System233/enkit/lib/client"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
+	bbpb "github.com/System233/enkit/third_party/buildbuddy/proto"
 
 	"github.com/golang/protobuf/proto"
 )

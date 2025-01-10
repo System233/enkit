@@ -16,7 +16,7 @@ syntax = "proto2";
 package blaze.invocation_policy;
 
 // option java_api_version = 2;
-option go_package = "github.com/enfabrica/enkit/third_party/bazel/proto";
+option go_package = "github.com/System233/enkit/third_party/bazel/proto";
 
 // The --invocation_policy flag takes a base64-encoded binary-serialized or text
 // formatted InvocationPolicy message.

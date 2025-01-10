@@ -23,4 +23,4 @@ name: enkit-bazel-postsubmit
 sourceToBuild:
   ref: refs/heads/master
   repoType: GITHUB
-  uri: https://github.com/enfabrica/enkit
+  uri: https://github.com/System233/enkit

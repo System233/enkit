@@ -13,9 +13,9 @@ import (
 
 	"time"
 
-	"github.com/enfabrica/enkit/lib/client"
-	"github.com/enfabrica/enkit/lib/config/marshal"
-	"github.com/enfabrica/enkit/lib/kflags/kcobra"
+	"github.com/System233/enkit/lib/client"
+	"github.com/System233/enkit/lib/config/marshal"
+	"github.com/System233/enkit/lib/kflags/kcobra"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

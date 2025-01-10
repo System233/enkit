@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/enfabrica/enkit/lib/client"
+	"github.com/System233/enkit/lib/client"
 	"net"
 )
 

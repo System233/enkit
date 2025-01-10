@@ -2,8 +2,8 @@ package kdns_test
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/knetwork/kdns"
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/knetwork/kdns"
+	"github.com/System233/enkit/lib/logger"
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/goleak"

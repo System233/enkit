@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "srand",
     srcs = ["random.go"],
-    importpath = "github.com/enfabrica/enkit/lib/srand",
+    importpath = "github.com/System233/enkit/lib/srand",
     visibility = ["//visibility:public"],
 )
 

@@ -6,7 +6,7 @@ go_library(
         "factory.go",
         "factory_windows.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/logger/klog",
+    importpath = "github.com/System233/enkit/lib/logger/klog",
     visibility = ["//visibility:public"],
     deps = select({
         "@io_bazel_rules_go//go/platform:aix": [

@@ -1,9 +1,9 @@
 package httpp
 
 import (
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/oauth"
-	"github.com/enfabrica/enkit/proxy/amux"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/oauth"
+	"github.com/System233/enkit/proxy/amux"
 
 	"fmt"
 	"net/http"

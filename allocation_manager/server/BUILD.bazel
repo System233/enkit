@@ -5,7 +5,7 @@ go_library(
     name = "server_lib",
     srcs = ["main.go"],
     embedsrcs = glob(["templates/*.tmpl"]),  # keep
-    importpath = "github.com/enfabrica/enkit/allocation_manager/server",
+    importpath = "github.com/System233/enkit/allocation_manager/server",
     visibility = ["//visibility:private"],
     deps = [
         "//allocation_manager/proto",

@@ -4,7 +4,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "enkit_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/enkit",
+    importpath = "github.com/System233/enkit/enkit",
     visibility = ["//visibility:private"],
     deps = ["//enkit/cmd"],
 )

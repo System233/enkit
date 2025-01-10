@@ -2,7 +2,7 @@ package kapt
 
 import (
 	"github.com/cybozu-go/aptutil/apt"
-	"github.com/enfabrica/enkit/kbuild/common"
+	"github.com/System233/enkit/kbuild/common"
 	"net/url"
 	"path"
 	"regexp"

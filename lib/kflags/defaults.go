@@ -3,7 +3,7 @@ package kflags
 import (
 	"flag"
 	"fmt"
-	"github.com/enfabrica/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/multierror"
 	"path/filepath"
 	"strings"
 )

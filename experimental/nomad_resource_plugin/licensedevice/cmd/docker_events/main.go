@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/docker"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/docker"
 )
 
 func exitIf(err error) {

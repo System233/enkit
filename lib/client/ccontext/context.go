@@ -1,8 +1,8 @@
 package ccontext
 
 import (
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/progress"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/progress"
 )
 
 type Context struct {

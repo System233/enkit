@@ -1,7 +1,7 @@
 package nasshp
 
 import (
-	"github.com/enfabrica/enkit/proxy/utils"
+	"github.com/System233/enkit/proxy/utils"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

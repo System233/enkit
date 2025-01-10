@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "cookie",
     srcs = ["cookie.go"],
-    importpath = "github.com/enfabrica/enkit/lib/oauth/cookie",
+    importpath = "github.com/System233/enkit/lib/oauth/cookie",
     visibility = ["//visibility:public"],
     deps = ["//lib/khttp/kcookie"],
 )

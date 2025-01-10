@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "enproxy",
     srcs = ["enproxy.go"],
-    importpath = "github.com/enfabrica/enkit/proxy/enproxy",
+    importpath = "github.com/System233/enkit/proxy/enproxy",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/config/marshal",

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/logger"
 	"github.com/bazelbuild/buildtools/wspace"
 )
 

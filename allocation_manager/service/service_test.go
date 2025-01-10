@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	apb "github.com/enfabrica/enkit/allocation_manager/proto"
+	apb "github.com/System233/enkit/allocation_manager/proto"
 )
 
 func restoreTimeNow() { timeNow = time.Now }

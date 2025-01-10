@@ -7,7 +7,7 @@ go_library(
         "ssh.go",
         "tunnel.go",
     ],
-    importpath = "github.com/enfabrica/enkit/proxy/ptunnel/commands",
+    importpath = "github.com/System233/enkit/proxy/ptunnel/commands",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/client",

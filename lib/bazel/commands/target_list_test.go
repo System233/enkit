@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/enfabrica/enkit/lib/errdiff"
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
+	"github.com/System233/enkit/lib/errdiff"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
 )
 
 type buddyEvent struct {

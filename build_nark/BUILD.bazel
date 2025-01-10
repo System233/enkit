@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library", "go_test")
 go_library(
     name = "build_nark_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/build_nark",
+    importpath = "github.com/System233/enkit/build_nark",
     visibility = ["//visibility:private"],
     deps = [
         "//lib/logger",

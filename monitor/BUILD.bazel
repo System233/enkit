@@ -5,7 +5,7 @@ load("//bazel/utils/container:container.bzl", "container_image", "container_push
 go_library(
     name = "monitor_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/monitor",
+    importpath = "github.com/System233/enkit/monitor",
     visibility = ["//visibility:private"],
     deps = [
         "//lib/client",

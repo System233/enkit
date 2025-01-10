@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/enfabrica/enkit/lib/errdiff"
-	"github.com/enfabrica/enkit/lib/testutil"
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
-	bbpb "github.com/enfabrica/enkit/third_party/buildbuddy/proto"
+	"github.com/System233/enkit/lib/errdiff"
+	"github.com/System233/enkit/lib/testutil"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
+	bbpb "github.com/System233/enkit/third_party/buildbuddy/proto"
 
 	"github.com/golang/protobuf/proto"
 )

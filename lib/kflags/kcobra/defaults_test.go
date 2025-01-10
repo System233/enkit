@@ -1,7 +1,7 @@
 package kcobra
 
 import (
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/kflags"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"

@@ -11,7 +11,7 @@ proto_library(
 go_proto_library(
     name = "go_default_library",
     compilers = ["@io_bazel_rules_go//proto:go_grpc"],
-    importpath = "github.com/enfabrica/enkit/auth/proto",
+    importpath = "github.com/System233/enkit/auth/proto",
     proto = ":auth_proto",
     visibility = ["//visibility:public"],
 )
@@ -19,6 +19,6 @@ go_proto_library(
 go_library(
     name = "proto",
     embed = [":go_default_library"],
-    importpath = "github.com/enfabrica/enkit/auth/proto",
+    importpath = "github.com/System233/enkit/auth/proto",
     visibility = ["//visibility:public"],
 )

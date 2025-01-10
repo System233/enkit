@@ -9,7 +9,7 @@ go_library(
 go_library(
     name = "commands",
     srcs = ["login.go"],
-    importpath = "github.com/enfabrica/enkit/lib/client/commands",
+    importpath = "github.com/System233/enkit/lib/client/commands",
     visibility = ["//visibility:public"],
     deps = [
         "//auth/proto",

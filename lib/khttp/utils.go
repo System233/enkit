@@ -1,7 +1,7 @@
 package khttp
 
 import (
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/logger"
 	"net"
 	"net/http"
 	"net/url"

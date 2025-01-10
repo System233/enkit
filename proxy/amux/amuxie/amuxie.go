@@ -1,9 +1,9 @@
 // Interface adapter to make a "muxie" (from https://github.com/kataras/muxie) comformant
-// to the "github.com/enfabrica/enkit/proxy/amux" interface.
+// to the "github.com/System233/enkit/proxy/amux" interface.
 package amuxie
 
 import (
-	"github.com/enfabrica/enkit/proxy/amux"
+	"github.com/System233/enkit/proxy/amux"
 	"github.com/kataras/muxie"
 	"net/http"
 	"strings"

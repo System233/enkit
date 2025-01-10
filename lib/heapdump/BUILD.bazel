@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "heapdump",
     srcs = ["heapdump.go"],
-    importpath = "github.com/enfabrica/enkit/lib/heapdump",
+    importpath = "github.com/System233/enkit/lib/heapdump",
     visibility = ["//visibility:public"],
 )
 

@@ -4,7 +4,7 @@ package allocation_manager.proto;
 
 import "allocation_manager/proto/allocation_manager.proto";
 
-option go_package = "github.com/enfabrica/enkit/allocation_manager/proto";
+option go_package = "github.com/System233/enkit/allocation_manager/proto";
 
 // Message used for server config file
 message Config {

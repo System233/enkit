@@ -3,8 +3,8 @@ package astore
 import (
 	"cloud.google.com/go/datastore"
 	"context"
-	"github.com/enfabrica/enkit/astore/rpc/astore"
-	"github.com/enfabrica/enkit/lib/retry"
+	"github.com/System233/enkit/astore/rpc/astore"
+	"github.com/System233/enkit/lib/retry"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

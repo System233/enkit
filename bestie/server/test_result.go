@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"strings"
 
-	tpb "github.com/enfabrica/enkit/bestie/proto"
-	"github.com/enfabrica/enkit/lib/kbuildbarn"
-	"github.com/enfabrica/enkit/lib/multierror"
-	bes "github.com/enfabrica/enkit/third_party/bazel/buildeventstream" // Allows prototext to automatically decode embedded messages
+	tpb "github.com/System233/enkit/bestie/proto"
+	"github.com/System233/enkit/lib/kbuildbarn"
+	"github.com/System233/enkit/lib/multierror"
+	bes "github.com/System233/enkit/third_party/bazel/buildeventstream" // Allows prototext to automatically decode embedded messages
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 

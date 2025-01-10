@@ -2,8 +2,8 @@ package providers
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/oauth"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/oauth"
 	"golang.org/x/oauth2"
 	"regexp"
 )

@@ -17,7 +17,7 @@
     ],
     "formatting.gofumpt": true,
     // This group of imports is separated
-    "formatting.local": "github.com/enfabrica/enkit",
+    "formatting.local": "github.com/System233/enkit",
     "ui.completion.usePlaceholders": true,
     "ui.semanticTokens": true,
     "ui.codelenses": {

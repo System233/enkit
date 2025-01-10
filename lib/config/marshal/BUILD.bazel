@@ -7,7 +7,7 @@ go_library(
         "marshal.go",
         "select.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/config/marshal",
+    importpath = "github.com/System233/enkit/lib/config/marshal",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/multierror",

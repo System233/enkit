@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "docker_events_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/cmd/docker_events",
+    importpath = "github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/cmd/docker_events",
     visibility = ["//visibility:private"],
     deps = ["//experimental/nomad_resource_plugin/licensedevice/docker"],
 )

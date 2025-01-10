@@ -5,7 +5,7 @@ load("//bazel/appengine:defs.bzl", "go_appengine_deploy")
 go_library(
     name = "server_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/astore/server",
+    importpath = "github.com/System233/enkit/astore/server",
     visibility = ["//visibility:private"],
     deps = [
         "//astore/rpc/astore",
@@ -53,7 +53,7 @@ go_embed_data(
 go_library(
     name = "credentials",
     srcs = [":embedded-credentials"],
-    importpath = "github.com/enfabrica/enkit/astore/server/credentials",
+    importpath = "github.com/System233/enkit/astore/server/credentials",
     visibility = ["//visibility:public"],
 )
 
@@ -69,14 +69,14 @@ go_embed_data(
 go_library(
     name = "assets",
     srcs = [":embedded-assets"],
-    importpath = "github.com/enfabrica/enkit/astore/server/assets",
+    importpath = "github.com/System233/enkit/astore/server/assets",
     visibility = ["//visibility:public"],
 )
 
 go_appengine_deploy(
     name = "deploy",
     config = "deploy/app.yaml",
-    entry = "github.com/enfabrica/enkit/astore/server",
+    entry = "github.com/System233/enkit/astore/server",
     gomod = "//:go.mod",
     gosum = "//:go.sum",
     project = "astore-284118",

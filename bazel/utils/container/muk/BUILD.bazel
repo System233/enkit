@@ -81,7 +81,7 @@ proto_library(
 
 go_proto_library(
     name = "infra_dev_container_muk_go_proto",
-    importpath = "github.com/enfabrica/enkit/bazel/utils/container/muk",
+    importpath = "github.com/System233/enkit/bazel/utils/container/muk",
     proto = ":infra_dev_container_muk_proto",
     visibility = ["//visibility:public"],
 )

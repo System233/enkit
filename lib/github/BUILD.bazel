@@ -6,7 +6,7 @@ go_library(
         "stablecomment.go",
         "wrappers.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/github",
+    importpath = "github.com/System233/enkit/lib/github",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/kflags",

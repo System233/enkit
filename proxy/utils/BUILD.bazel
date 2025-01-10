@@ -9,7 +9,7 @@ go_library(
         "types.go",
         "whitelist.go",
     ],
-    importpath = "github.com/enfabrica/enkit/proxy/utils",
+    importpath = "github.com/System233/enkit/proxy/utils",
     visibility = ["//visibility:public"],
     deps = ["//lib/oauth"],
 )

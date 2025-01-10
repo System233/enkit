@@ -7,7 +7,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 	"encoding/pem"
-	"github.com/enfabrica/enkit/lib/kcerts/ked25519"
+	"github.com/System233/enkit/lib/kcerts/ked25519"
 	"golang.org/x/crypto/ssh"
 )
 

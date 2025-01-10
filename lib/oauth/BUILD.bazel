@@ -8,7 +8,7 @@ go_library(
         "oauth.go",
         "types.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/oauth",
+    importpath = "github.com/System233/enkit/lib/oauth",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/kcerts",

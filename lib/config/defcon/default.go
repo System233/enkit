@@ -2,8 +2,8 @@
 package defcon
 
 import (
-	"github.com/enfabrica/enkit/lib/config"
-	"github.com/enfabrica/enkit/lib/config/directory"
+	"github.com/System233/enkit/lib/config"
+	"github.com/System233/enkit/lib/config/directory"
 )
 
 func Open(app string, namespace ...string) (config.Store, error) {

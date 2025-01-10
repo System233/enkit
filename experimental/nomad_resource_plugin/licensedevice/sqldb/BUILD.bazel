@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "sqldb",
     srcs = ["sqldb.go"],
-    importpath = "github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/sqldb",
+    importpath = "github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/sqldb",
     visibility = ["//visibility:public"],
     deps = [
         "//experimental/nomad_resource_plugin/licensedevice/types",

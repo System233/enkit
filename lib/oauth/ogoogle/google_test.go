@@ -1,8 +1,8 @@
 package ogoogle
 
 import (
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/oauth"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/oauth"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/oauth2"
 	"testing"

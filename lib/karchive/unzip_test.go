@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/enfabrica/enkit/lib/errdiff"
-	"github.com/enfabrica/enkit/lib/testutil"
+	"github.com/System233/enkit/lib/errdiff"
+	"github.com/System233/enkit/lib/testutil"
 
 	"github.com/prashantv/gostub"
 	"github.com/stretchr/testify/assert"

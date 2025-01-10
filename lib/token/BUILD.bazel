@@ -9,7 +9,7 @@ go_library(
         "time.go",
         "token.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/token",
+    importpath = "github.com/System233/enkit/lib/token",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/config/marshal",

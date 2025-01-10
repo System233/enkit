@@ -3,8 +3,8 @@ package version
 import (
 	"fmt"
 
-	"github.com/enfabrica/enkit/lib/client"
-	"github.com/enfabrica/enkit/lib/stamp"
+	"github.com/System233/enkit/lib/client"
+	"github.com/System233/enkit/lib/stamp"
 
 	"github.com/spf13/cobra"
 )

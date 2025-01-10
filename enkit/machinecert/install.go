@@ -14,8 +14,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	apb "github.com/enfabrica/enkit/auth/proto"
-	"github.com/enfabrica/enkit/lib/kcerts"
+	apb "github.com/System233/enkit/auth/proto"
+	"github.com/System233/enkit/lib/kcerts"
 	"golang.org/x/crypto/ssh"
 )
 

@@ -14,7 +14,7 @@ go_library(
     srcs = [
         ":embedded-assets",  # keep
     ],
-    importpath = "github.com/enfabrica/enkit/kbuild/assets",  # keep
+    importpath = "github.com/System233/enkit/kbuild/assets",  # keep
     visibility = ["//visibility:public"],
 )
 

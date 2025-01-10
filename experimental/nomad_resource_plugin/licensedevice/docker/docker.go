@@ -12,7 +12,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/types"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/types"
 )
 
 var (

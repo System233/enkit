@@ -2,8 +2,8 @@ package protocol
 
 import (
 	"context"
-	"github.com/enfabrica/enkit/lib/khttp/kclient"
-	"github.com/enfabrica/enkit/lib/khttp/krequest"
+	"github.com/System233/enkit/lib/khttp/kclient"
+	"github.com/System233/enkit/lib/khttp/krequest"
 	"io"
 	"io/ioutil"
 	//	"log"

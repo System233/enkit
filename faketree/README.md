@@ -82,14 +82,14 @@ Will run the bash command in an environment where (in order of flags):
     syscall independent of `/proc` in most linux system to return the hostname,
     `--hostname` allows to override that value.
 
-**More examples** are available in the [faketree_test.sh file](https://github.com/enfabrica/enkit/blob/master/faketree/faketree_test.sh),
+**More examples** are available in the [faketree_test.sh file](https://github.com/System233/enkit/blob/master/faketree/faketree_test.sh),
 complete with expected outputs and behaviors.
 
 # Installation
 
 Installing on your system should be as simple as:
 
-    go install -v github.com/enfabrica/enkit/faketree@latest
+    go install -v github.com/System233/enkit/faketree@latest
 
 At time of writing, `go` version 1.19 is required.
 
@@ -100,7 +100,7 @@ Alternatively, you can use our preferred build system (will work regardless of t
 
   2. Clone this repository:
 
-            git clone https://github.com/enfabrica/enkit 
+            git clone https://github.com/System233/enkit 
 
   3. Build faketree with:
 

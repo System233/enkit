@@ -3,7 +3,7 @@ package polling
 import (
 	"context"
 
-	mpb "github.com/enfabrica/enkit/machinist/rpc"
+	mpb "github.com/System233/enkit/machinist/rpc"
 
 	"time"
 )

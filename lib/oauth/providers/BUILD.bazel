@@ -6,7 +6,7 @@ go_library(
         "groups.go",
         "providers.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/oauth/providers",
+    importpath = "github.com/System233/enkit/lib/oauth/providers",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/kflags",

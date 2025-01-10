@@ -11,7 +11,7 @@ go_library(
         "publish.go",
         "retrieve.go",
     ],
-    importpath = "github.com/enfabrica/enkit/astore/server/astore",
+    importpath = "github.com/System233/enkit/astore/server/astore",
     visibility = ["//visibility:public"],
     deps = [
         "//astore/rpc/astore",

@@ -9,7 +9,7 @@ alias(
 go_library(
     name = "docker",
     srcs = ["docker.go"],
-    importpath = "github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/docker",
+    importpath = "github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/docker",
     visibility = ["//visibility:public"],
     deps = [
         "//experimental/nomad_resource_plugin/licensedevice/types",

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "common",
     srcs = ["common.go"],
-    importpath = "github.com/enfabrica/enkit/auth/common",
+    importpath = "github.com/System233/enkit/auth/common",
     visibility = ["//visibility:public"],
 )
 

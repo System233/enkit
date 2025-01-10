@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "cmd",
     srcs = ["command.go"],
-    importpath = "github.com/enfabrica/enkit/enkit/cmd",
+    importpath = "github.com/System233/enkit/enkit/cmd",
     visibility = ["//visibility:public"],
     deps = [
         "//astore/client/commands",

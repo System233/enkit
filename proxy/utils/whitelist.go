@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/oauth"
+	"github.com/System233/enkit/lib/oauth"
 	"path/filepath"
 )
 

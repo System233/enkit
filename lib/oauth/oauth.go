@@ -49,7 +49,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/enfabrica/enkit/lib/kcerts"
+	"github.com/System233/enkit/lib/kcerts"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/oauth2"
 	"log"
@@ -60,12 +60,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/enfabrica/enkit/lib/khttp"
-	"github.com/enfabrica/enkit/lib/khttp/kassets"
-	"github.com/enfabrica/enkit/lib/khttp/kcookie"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/oauth/cookie"
-	"github.com/enfabrica/enkit/lib/token"
+	"github.com/System233/enkit/lib/khttp"
+	"github.com/System233/enkit/lib/khttp/kassets"
+	"github.com/System233/enkit/lib/khttp/kcookie"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/oauth/cookie"
+	"github.com/System233/enkit/lib/token"
 )
 
 // Verifier is an object capable of verifying an oauth2.Token after obtaining it.

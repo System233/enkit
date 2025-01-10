@@ -8,7 +8,7 @@ go_library(
         "node.go",
         "templates.go",
     ],
-    importpath = "github.com/enfabrica/enkit/machinist/machine",
+    importpath = "github.com/System233/enkit/machinist/machine",
     visibility = ["//visibility:public"],
     deps = [
         "//auth/proto",

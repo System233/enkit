@@ -1,7 +1,7 @@
 package workpool
 
 import (
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/kflags"
 	"runtime"
 	"sync"
 )

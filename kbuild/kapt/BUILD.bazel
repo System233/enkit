@@ -7,7 +7,7 @@ go_library(
         "paragraph.go",
         "repository.go",
     ],
-    importpath = "github.com/enfabrica/enkit/kbuild/kapt",
+    importpath = "github.com/System233/enkit/kbuild/kapt",
     visibility = ["//visibility:public"],
     deps = [
         "//kbuild/common",

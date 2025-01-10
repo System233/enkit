@@ -16,7 +16,7 @@ go_library(
         ":pam_script",
         ":pam_sshd_config",
     ],
-    importpath = "github.com/enfabrica/enkit/machinist/machine/assets",
+    importpath = "github.com/System233/enkit/machinist/machine/assets",
     visibility = ["//machinist/machine:__pkg__"],
 )
 

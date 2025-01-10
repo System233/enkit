@@ -8,10 +8,10 @@ import (
 	"net"
 	"os"
 
-	"github.com/enfabrica/enkit/astore/atesting"
-	apb "github.com/enfabrica/enkit/astore/rpc/astore"
-	"github.com/enfabrica/enkit/astore/server/astore"
-	"github.com/enfabrica/enkit/lib/srand"
+	"github.com/System233/enkit/astore/atesting"
+	apb "github.com/System233/enkit/astore/rpc/astore"
+	"github.com/System233/enkit/astore/server/astore"
+	"github.com/System233/enkit/lib/srand"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"

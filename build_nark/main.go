@@ -32,7 +32,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/gomail.v2"
 
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/logger"
 )
 
 const (

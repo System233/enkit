@@ -4,7 +4,7 @@ go_library(
     name = "errdiff",
     testonly = True,
     srcs = ["errdiff.go"],
-    importpath = "github.com/enfabrica/enkit/lib/errdiff",
+    importpath = "github.com/System233/enkit/lib/errdiff",
     visibility = ["//visibility:public"],
 )
 

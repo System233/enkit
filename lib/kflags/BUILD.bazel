@@ -10,7 +10,7 @@ go_library(
         "flags.go",
         "map.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/kflags",
+    importpath = "github.com/System233/enkit/lib/kflags",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/logger",

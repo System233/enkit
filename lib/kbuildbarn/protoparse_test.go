@@ -3,7 +3,7 @@ package kbuildbarn
 import (
 	"testing"
 
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,7 +6,7 @@ go_library(
         "common.go",
         "machine.go",
     ],
-    importpath = "github.com/enfabrica/enkit/machinist/config",
+    importpath = "github.com/System233/enkit/machinist/config",
     visibility = ["//visibility:public"],
     deps = ["//lib/client"],
 )

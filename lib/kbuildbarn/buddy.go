@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/enfabrica/enkit/lib/bes"
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
+	"github.com/System233/enkit/lib/bes"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
 )
 
 type FilterOption func(event *bespb.BuildEvent, baseName, invocation string) HardlinkList

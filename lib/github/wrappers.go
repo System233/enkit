@@ -3,8 +3,8 @@ package github
 import (
 	"context"
 	"fmt"
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/retry"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/retry"
 	"github.com/google/go-github/github"
 	"golang.org/x/oauth2"
 	"os"

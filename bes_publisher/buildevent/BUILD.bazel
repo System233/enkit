@@ -7,7 +7,7 @@ go_library(
         "pubsub.go",
         "service.go",
     ],
-    importpath = "github.com/enfabrica/enkit/bes_publisher/buildevent",
+    importpath = "github.com/System233/enkit/bes_publisher/buildevent",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/gmap",

@@ -16,9 +16,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/enfabrica/enkit/lib/errdiff"
-	"github.com/enfabrica/enkit/lib/testutil"
-	bes "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
+	"github.com/System233/enkit/lib/errdiff"
+	"github.com/System233/enkit/lib/testutil"
+	bes "github.com/System233/enkit/third_party/bazel/buildeventstream"
 )
 
 func TestServicePublishLifecycleEvent(t *testing.T) {

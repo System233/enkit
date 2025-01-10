@@ -5,7 +5,7 @@ import (
 	"debug/macho"
 	"debug/pe"
 	"fmt"
-	"github.com/enfabrica/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/multierror"
 )
 
 func GuessELF(name string) ([]Arch, error) {

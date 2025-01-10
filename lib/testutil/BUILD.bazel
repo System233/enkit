@@ -8,7 +8,7 @@ go_library(
         "fs.go",
         "helpers.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/testutil",
+    importpath = "github.com/System233/enkit/lib/testutil",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_google_go_cmp//cmp",

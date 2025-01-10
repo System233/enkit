@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	bpb "github.com/enfabrica/enkit/lib/bazel/proto"
+	bpb "github.com/System233/enkit/lib/bazel/proto"
 )
 
 var pseudoTargetAttributeName = "workspace_download_checksums"

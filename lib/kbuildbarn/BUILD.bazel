@@ -8,7 +8,7 @@ go_library(
         "protoparse.go",
         "urls.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/kbuildbarn",
+    importpath = "github.com/System233/enkit/lib/kbuildbarn",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/bes",

@@ -6,7 +6,7 @@ go_library(
         "helpers.go",
         "workpool.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/khttp/workpool",
+    importpath = "github.com/System233/enkit/lib/khttp/workpool",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/kflags",

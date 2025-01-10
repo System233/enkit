@@ -11,8 +11,8 @@
 //
 //    import (
 //        // Secure random numbers.
-//        "github.com/enfabrica/enkit/lib/srand"
-//        "github.com/enfabrica/enkit/lib/kflags"
+//        "github.com/System233/enkit/lib/srand"
+//        "github.com/System233/enkit/lib/kflags"
 //        "flag"
 //    )
 //
@@ -38,16 +38,16 @@ package enproxy
 
 import (
 	"context"
-	"github.com/enfabrica/enkit/lib/config/marshal"
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/khttp"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/oauth"
-	"github.com/enfabrica/enkit/proxy/amux"
-	"github.com/enfabrica/enkit/proxy/amux/amuxie"
-	"github.com/enfabrica/enkit/proxy/httpp"
-	"github.com/enfabrica/enkit/proxy/nasshp"
-	"github.com/enfabrica/enkit/proxy/utils"
+	"github.com/System233/enkit/lib/config/marshal"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/khttp"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/oauth"
+	"github.com/System233/enkit/proxy/amux"
+	"github.com/System233/enkit/proxy/amux/amuxie"
+	"github.com/System233/enkit/proxy/httpp"
+	"github.com/System233/enkit/proxy/nasshp"
+	"github.com/System233/enkit/proxy/utils"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"log"

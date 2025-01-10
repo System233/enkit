@@ -2,7 +2,7 @@ package marshal
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/multierror"
 	"io/ioutil"
 	"net/url"
 	"os"

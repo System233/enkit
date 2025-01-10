@@ -10,7 +10,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/enfabrica/enkit/shims/buildbuddy"
+	"github.com/System233/enkit/shims/buildbuddy"
 )
 
 func mapFromStringMapping(ms []string, delimiter string) (map[string]string, error) {

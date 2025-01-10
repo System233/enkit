@@ -13,7 +13,7 @@ go_binary(
 go_library(
     name = "enkit_credential_helper_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/bazel/enkit_credential_helper",
+    importpath = "github.com/System233/enkit/bazel/enkit_credential_helper",
     visibility = ["//visibility:private"],
     deps = [
         "//lib/config/defcon",

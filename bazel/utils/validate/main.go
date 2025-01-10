@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/enfabrica/enkit/lib/config/marshal"
+	"github.com/System233/enkit/lib/config/marshal"
 
 	"flag"
 	"io/ioutil"

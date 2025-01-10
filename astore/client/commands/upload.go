@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/enfabrica/enkit/astore/client/astore"
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/astore/client/astore"
+	"github.com/System233/enkit/lib/kflags"
 	"github.com/spf13/cobra"
 )
 

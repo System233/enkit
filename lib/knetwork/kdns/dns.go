@@ -1,9 +1,9 @@
 package kdns
 
 import (
-	"github.com/enfabrica/enkit/lib/goroutine"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/goroutine"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/lib/multierror"
 	"github.com/miekg/dns"
 	"net"
 	"strconv"

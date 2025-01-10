@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	fpb "github.com/enfabrica/enkit/flextape/proto"
-	"github.com/enfabrica/enkit/lib/errdiff"
+	fpb "github.com/System233/enkit/flextape/proto"
+	"github.com/System233/enkit/lib/errdiff"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"

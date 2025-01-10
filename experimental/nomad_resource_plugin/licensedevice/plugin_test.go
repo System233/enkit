@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/types"
-	"github.com/enfabrica/enkit/lib/str"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/types"
+	"github.com/System233/enkit/lib/str"
 )
 
 var sampleLicenseTable = []*types.License{

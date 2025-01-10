@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "nomad_license_manage_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/cmd/nomad_license_manage",
+    importpath = "github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/cmd/nomad_license_manage",
     visibility = ["//visibility:private"],
     deps = [
         "//experimental/nomad_resource_plugin/licensedevice/sqldb",

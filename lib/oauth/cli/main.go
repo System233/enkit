@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/kflags/kcobra"
-	"github.com/enfabrica/enkit/lib/oauth"
-	"github.com/enfabrica/enkit/lib/srand"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/kflags/kcobra"
+	"github.com/System233/enkit/lib/oauth"
+	"github.com/System233/enkit/lib/srand"
 	"github.com/spf13/cobra"
 	"math/rand"
 	"os"

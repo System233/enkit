@@ -4,7 +4,7 @@ package flextape.proto;
 
 import "flextape/proto/flextape.proto";
 
-option go_package = "github.com/enfabrica/enkit/flextape/proto";
+option go_package = "github.com/System233/enkit/flextape/proto";
 
 // Message used for server config file
 message Config {

@@ -2,8 +2,8 @@ package config
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/config/marshal"
-	"github.com/enfabrica/enkit/lib/multierror"
+	"github.com/System233/enkit/lib/config/marshal"
+	"github.com/System233/enkit/lib/multierror"
 	"os"
 )
 

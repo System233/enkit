@@ -3,7 +3,7 @@ package kbuildbarn
 import (
 	"testing"
 
-	"github.com/enfabrica/enkit/lib/errdiff"
+	"github.com/System233/enkit/lib/errdiff"
 	"github.com/stretchr/testify/assert"
 )
 

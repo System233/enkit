@@ -1,10 +1,10 @@
 package client
 
 import (
-	"github.com/enfabrica/enkit/lib/grpcwebclient"
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/khttp/kclient"
-	"github.com/enfabrica/enkit/lib/khttp/krequest"
+	"github.com/System233/enkit/lib/grpcwebclient"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/khttp/kclient"
+	"github.com/System233/enkit/lib/khttp/krequest"
 
 	"context"
 	"fmt"

@@ -8,10 +8,10 @@ package providers
 import (
 	"fmt"
 
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/oauth"
-	"github.com/enfabrica/enkit/lib/oauth/ogithub"
-	"github.com/enfabrica/enkit/lib/oauth/ogoogle"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/oauth"
+	"github.com/System233/enkit/lib/oauth/ogithub"
+	"github.com/System233/enkit/lib/oauth/ogoogle"
 )
 
 // Flags allows to configure oauth for one of the specific providers

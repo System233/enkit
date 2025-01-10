@@ -6,7 +6,7 @@ core.workflow(
         partial_fetch = True,
     ),
     destination = git.github_pr_destination(
-        url = "https://github.com/enfabrica/enkit",
+        url = "https://github.com/System233/enkit",
         destination_ref = "master",
     ),
     origin_files = glob([
@@ -29,7 +29,7 @@ core.workflow(
         # Replace java_package with go_package
         core.replace(
             before = 'java_package = "${id}";',
-            after = 'go_package = "github.com/enfabrica/enkit/third_party/bazel/proto";',
+            after = 'go_package = "github.com/System233/enkit/third_party/bazel/proto";',
             regex_groups = {
                 "id": "[a-zA-Z.]+",
             },

@@ -2,13 +2,13 @@ package downloader
 
 import (
 	"context"
-	"github.com/enfabrica/enkit/lib/kflags"
-	"github.com/enfabrica/enkit/lib/khttp/kclient"
-	"github.com/enfabrica/enkit/lib/khttp/krequest"
-	"github.com/enfabrica/enkit/lib/khttp/protocol"
-	"github.com/enfabrica/enkit/lib/khttp/scheduler"
-	"github.com/enfabrica/enkit/lib/khttp/workpool"
-	"github.com/enfabrica/enkit/lib/retry"
+	"github.com/System233/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/khttp/kclient"
+	"github.com/System233/enkit/lib/khttp/krequest"
+	"github.com/System233/enkit/lib/khttp/protocol"
+	"github.com/System233/enkit/lib/khttp/scheduler"
+	"github.com/System233/enkit/lib/khttp/workpool"
+	"github.com/System233/enkit/lib/retry"
 	"sync"
 	"time"
 )

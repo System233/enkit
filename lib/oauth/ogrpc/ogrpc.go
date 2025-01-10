@@ -20,7 +20,7 @@ package ogrpc
 
 import (
 	"context"
-	"github.com/enfabrica/enkit/lib/oauth"
+	"github.com/System233/enkit/lib/oauth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

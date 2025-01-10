@@ -3,7 +3,7 @@
 package klog
 
 import (
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/kflags"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"io"

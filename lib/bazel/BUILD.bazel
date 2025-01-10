@@ -11,7 +11,7 @@ go_library(
         "target.go",
         "workspace.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/bazel",
+    importpath = "github.com/System233/enkit/lib/bazel",
     visibility = ["//visibility:public"],
     deps = [
         "//enkit/proto",

@@ -5,7 +5,7 @@ go_library(
     name = "server_lib",
     srcs = ["main.go"],
     embedsrcs = glob(["templates/*.tmpl"]),  # keep
-    importpath = "github.com/enfabrica/enkit/flextape/server",
+    importpath = "github.com/System233/enkit/flextape/server",
     visibility = ["//visibility:private"],
     deps = [
         "//flextape/frontend",

@@ -6,7 +6,7 @@ go_library(
         "client.go",
         "server.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/client",
+    importpath = "github.com/System233/enkit/lib/client",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/cache",

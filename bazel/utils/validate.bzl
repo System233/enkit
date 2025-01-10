@@ -6,7 +6,7 @@ def validate_format(tool, output, inputfiles, strip = "", format = "", execution
       inputfile: a list of File objects, to verify.
       strip: an optional extension to strip from the file to guess the format.
       format: string, the format of the file. Can be 'json', 'yaml' or any format supported by
-         the github.com/enfabrica/enkit/lib/config/unmarshal library.
+         the github.com/System233/enkit/lib/config/unmarshal library.
          If left empty, the format is determined by the extension of the file.
 
     Returns:

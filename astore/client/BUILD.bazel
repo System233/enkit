@@ -4,7 +4,7 @@ load("//bazel/astore:defs.bzl", "astore_upload")
 go_library(
     name = "client_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/astore/client",
+    importpath = "github.com/System233/enkit/astore/client",
     visibility = ["//visibility:private"],
     deps = [
         "//astore/client/commands",

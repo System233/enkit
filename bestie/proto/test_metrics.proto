@@ -3,7 +3,7 @@ syntax = "proto3";
 
 package bestie.proto;
 
-option go_package = "github.com/enfabrica/enkit/bestie/proto";
+option go_package = "github.com/System233/enkit/bestie/proto";
 
 // BigQuery metric definition compatible with Prometheus remote read adapter.
 //

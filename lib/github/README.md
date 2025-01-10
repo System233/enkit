@@ -1,4 +1,4 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/enfabrica/enkit/lib/github.svg)](https://pkg.go.dev/github.com/enfabrica/enkit/lib/github)
+[![Go Reference](https://pkg.go.dev/badge/github.com/System233/enkit/lib/github.svg)](https://pkg.go.dev/github.com/System233/enkit/lib/github)
 
 # Overview
 

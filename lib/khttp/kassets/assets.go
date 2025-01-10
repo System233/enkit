@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/enfabrica/enkit/lib/khttp"
-	"github.com/enfabrica/enkit/lib/logger"
+	"github.com/System233/enkit/lib/khttp"
+	"github.com/System233/enkit/lib/logger"
 	"github.com/dustin/go-humanize"
 )
 

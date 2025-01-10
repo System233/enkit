@@ -6,7 +6,7 @@ go_library(
         "git.go",
         "worktree.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/git",
+    importpath = "github.com/System233/enkit/lib/git",
     visibility = ["//visibility:public"],
     deps = ["@com_github_go_git_go_git_v5//:go-git"],
 )

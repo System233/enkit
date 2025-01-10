@@ -5,7 +5,7 @@ core.workflow(
         ref = "372b95b41a6ed82da632ee44ff0c48071c849c21",  # master as of 26Jan2022
     ),
     destination = git.github_pr_destination(
-        url = "https://github.com/enfabrica/enkit",
+        url = "https://github.com/System233/enkit",
         destination_ref = "master",
     ),
     origin_files = glob([

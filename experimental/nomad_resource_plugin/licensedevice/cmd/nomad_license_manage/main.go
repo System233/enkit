@@ -14,8 +14,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/sqldb"
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice/types"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/sqldb"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice/types"
 )
 
 var (

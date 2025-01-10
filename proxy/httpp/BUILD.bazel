@@ -7,7 +7,7 @@ go_library(
         "interface.go",
         "proxy.go",
     ],
-    importpath = "github.com/enfabrica/enkit/proxy/httpp",
+    importpath = "github.com/System233/enkit/proxy/httpp",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/khttp",

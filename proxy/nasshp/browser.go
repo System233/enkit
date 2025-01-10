@@ -2,8 +2,8 @@ package nasshp
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/lib/logger"
-	"github.com/enfabrica/enkit/proxy/utils"
+	"github.com/System233/enkit/lib/logger"
+	"github.com/System233/enkit/proxy/utils"
 	"github.com/gorilla/websocket"
 	"sync"
 	"sync/atomic"

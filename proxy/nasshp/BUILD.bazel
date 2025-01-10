@@ -10,7 +10,7 @@ go_library(
         "resolver.go",
         "window.go",
     ],
-    importpath = "github.com/enfabrica/enkit/proxy/nasshp",
+    importpath = "github.com/System233/enkit/proxy/nasshp",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/kflags",

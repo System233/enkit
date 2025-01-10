@@ -8,12 +8,12 @@ import (
 	"os"
 	"path/filepath"
 
-	faketreeexec "github.com/enfabrica/enkit/faketree/exec"
-	"github.com/enfabrica/enkit/lib/bes"
-	"github.com/enfabrica/enkit/lib/client"
-	"github.com/enfabrica/enkit/lib/karchive"
-	"github.com/enfabrica/enkit/lib/kbuildbarn"
-	"github.com/enfabrica/enkit/lib/multierror"
+	faketreeexec "github.com/System233/enkit/faketree/exec"
+	"github.com/System233/enkit/lib/bes"
+	"github.com/System233/enkit/lib/client"
+	"github.com/System233/enkit/lib/karchive"
+	"github.com/System233/enkit/lib/kbuildbarn"
+	"github.com/System233/enkit/lib/multierror"
 
 	"github.com/spf13/cobra"
 )

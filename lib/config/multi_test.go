@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/enfabrica/enkit/lib/config/directory"
+	"github.com/System233/enkit/lib/config/directory"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"

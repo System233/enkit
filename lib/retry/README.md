@@ -1,4 +1,4 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/enfabrica/enkit/lib/retry.svg)](https://pkg.go.dev/github.com/enfabrica/enkit/lib/retry)
+[![Go Reference](https://pkg.go.dev/badge/github.com/System233/enkit/lib/retry.svg)](https://pkg.go.dev/github.com/System233/enkit/lib/retry)
 
 # Overview
 
@@ -11,7 +11,7 @@ you want to re-try this function up to 10 times, waiting 1 second in between
 attempts. You can write:
 
     import (
-	"github.com/enfabrica/enkit/lib/retry"
+	"github.com/System233/enkit/lib/retry"
 	"fmt"
 	"time"
     )
@@ -29,7 +29,7 @@ The main features of the retry library are:
      the [thundering herd problem](https://en.wikipedia.org/wiki/Thundering_herd_problem) in large systems.
   2. Allows the configuration of attempts, delay, logger, fuzzying, random
      number generator, a log message, and time source to simplify testing.
-  3. Captures the last n errors (configurable) in a [multierror](https://github.com/enfabrica/enkit/tree/master/lib/multierror),
+  3. Captures the last n errors (configurable) in a [multierror](https://github.com/System233/enkit/tree/master/lib/multierror),
      for user friendly messages as well as easy processing of the errors.
   4. Allows the function to stop retries, with `return Fatal(err)`.
   5. Allows to implement retry logic in functions that cannot block or sleep,
@@ -44,9 +44,9 @@ Command line example:
 
     import (
         ...
-	"github.com/enfabrica/enkit/lib/retry"
+	"github.com/System233/enkit/lib/retry"
         ...
-	"github.com/enfabrica/enkit/lib/kflags"
+	"github.com/System233/enkit/lib/kflags"
         ...
         "flag"
     )
@@ -57,7 +57,7 @@ Command line example:
     	// "scrape-" is a prefix to give to the added flags.
     	//
     	// If using cobra, you can use &kcobra.FlagSet{FlagSet: ...} instead, from
-    	// github.com/enfabrica/enkit/lib/kflags/kcobra.
+    	// github.com/System233/enkit/lib/kflags/kcobra.
         retryFlags.Register(&kflags.GoFlagSet{FlagSet: flag.CommandLine}, "scrape-")
         ...
         flag.Parse()
@@ -76,4 +76,4 @@ function definition.
 
 # Documentation
 
-All the documentation is available on [pkg.go.dev](https://pkg.go.dev/github.com/enfabrica/enkit/lib/retry).
+All the documentation is available on [pkg.go.dev](https://pkg.go.dev/github.com/System233/enkit/lib/retry).

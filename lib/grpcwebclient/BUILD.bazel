@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "grpcwebclient",
     srcs = ["client.go"],
-    importpath = "github.com/enfabrica/enkit/lib/grpcwebclient",
+    importpath = "github.com/System233/enkit/lib/grpcwebclient",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/khttp/kclient",

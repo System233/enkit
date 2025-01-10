@@ -9,7 +9,7 @@ go_library(
         "namespace.go",
         "retriever.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/kflags/kconfig",
+    importpath = "github.com/System233/enkit/lib/kflags/kconfig",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/cache",

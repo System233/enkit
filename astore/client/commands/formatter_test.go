@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/enfabrica/enkit/astore/rpc/astore"
+	"github.com/System233/enkit/astore/rpc/astore"
 	"github.com/stretchr/testify/assert"
 )
 

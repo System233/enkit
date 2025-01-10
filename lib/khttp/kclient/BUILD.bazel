@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "kclient",
     srcs = ["client.go"],
-    importpath = "github.com/enfabrica/enkit/lib/khttp/kclient",
+    importpath = "github.com/System233/enkit/lib/khttp/kclient",
     visibility = ["//visibility:public"],
     deps = ["//lib/kflags"],
 )

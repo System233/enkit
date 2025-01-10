@@ -6,7 +6,7 @@ go_library(
         "commands.go",
         "install.go",
     ],
-    importpath = "github.com/enfabrica/enkit/enkit/machinecert",
+    importpath = "github.com/System233/enkit/enkit/machinecert",
     visibility = ["//visibility:public"],
     deps = [
         "//auth/proto",

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/enfabrica/enkit/machinist/config"
-	mpb "github.com/enfabrica/enkit/machinist/rpc"
+	"github.com/System233/enkit/machinist/config"
+	mpb "github.com/System233/enkit/machinist/rpc"
 
 	"google.golang.org/grpc/status"
 )

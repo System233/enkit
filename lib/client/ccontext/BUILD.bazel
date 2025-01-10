@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "ccontext",
     srcs = ["context.go"],
-    importpath = "github.com/enfabrica/enkit/lib/client/ccontext",
+    importpath = "github.com/System233/enkit/lib/client/ccontext",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/logger",

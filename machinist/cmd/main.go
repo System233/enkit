@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/enfabrica/enkit/lib/client"
-	"github.com/enfabrica/enkit/lib/kflags/kcobra"
-	"github.com/enfabrica/enkit/machinist"
+	"github.com/System233/enkit/lib/client"
+	"github.com/System233/enkit/lib/kflags/kcobra"
+	"github.com/System233/enkit/machinist"
 )
 
 func main() {

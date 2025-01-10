@@ -6,7 +6,7 @@ go_library(
         "kversion.go",
         "watch.go",
     ],
-    importpath = "github.com/enfabrica/enkit/kbuild/common",
+    importpath = "github.com/System233/enkit/kbuild/common",
     visibility = ["//visibility:public"],
 )
 

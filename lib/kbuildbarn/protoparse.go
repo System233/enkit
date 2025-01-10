@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	bespb "github.com/enfabrica/enkit/third_party/bazel/buildeventstream"
+	bespb "github.com/System233/enkit/third_party/bazel/buildeventstream"
 )
 
 const (

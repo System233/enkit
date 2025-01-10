@@ -10,9 +10,9 @@ import (
 	bpb "google.golang.org/genproto/googleapis/devtools/build/v1"
 	"google.golang.org/grpc"
 
-	"github.com/enfabrica/enkit/bes_publisher/buildevent"
-	"github.com/enfabrica/enkit/lib/metrics"
-	"github.com/enfabrica/enkit/lib/server"
+	"github.com/System233/enkit/bes_publisher/buildevent"
+	"github.com/System233/enkit/lib/metrics"
+	"github.com/System233/enkit/lib/server"
 )
 
 var (

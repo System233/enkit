@@ -5,7 +5,7 @@ load("//bazel/utils/container:container.bzl", "container_image", "container_push
 go_library(
     name = "cmd_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/shims/buildbuddy/cmd",
+    importpath = "github.com/System233/enkit/shims/buildbuddy/cmd",
     visibility = ["//visibility:public"],
     deps = [
         "//shims/buildbuddy",

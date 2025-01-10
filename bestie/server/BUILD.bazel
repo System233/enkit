@@ -11,7 +11,7 @@ go_library(
         "test_result.go",
         "xml_result.go",
     ],
-    importpath = "github.com/enfabrica/enkit/bestie/server",
+    importpath = "github.com/System233/enkit/bestie/server",
     visibility = ["//visibility:private"],
     deps = [
         "//bestie/proto:go_default_library",

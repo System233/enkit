@@ -7,7 +7,7 @@ go_library(
         "simple.go",
         "store.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/config",
+    importpath = "github.com/System233/enkit/lib/config",
     visibility = ["//visibility:public"],
     deps = [
         "//lib/config/marshal",

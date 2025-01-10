@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "buildbuddy",
     srcs = ["urls.go"],
-    importpath = "github.com/enfabrica/enkit/shims/buildbuddy",
+    importpath = "github.com/System233/enkit/shims/buildbuddy",
     visibility = ["//visibility:public"],
     deps = ["@com_github_rs_cors//:cors"],
 )

@@ -1,10 +1,10 @@
 package machinist
 
 import (
-	"github.com/enfabrica/enkit/lib/client"
-	"github.com/enfabrica/enkit/machinist/config"
-	"github.com/enfabrica/enkit/machinist/machine"
-	"github.com/enfabrica/enkit/machinist/mserver"
+	"github.com/System233/enkit/lib/client"
+	"github.com/System233/enkit/machinist/config"
+	"github.com/System233/enkit/machinist/machine"
+	"github.com/System233/enkit/machinist/mserver"
 	"github.com/spf13/cobra"
 )
 

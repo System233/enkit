@@ -20,8 +20,8 @@ import (
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/enfabrica/enkit/lib/gmap"
-	bes "github.com/enfabrica/enkit/third_party/bazel/buildeventstream" // Allows prototext to automatically decode embedded messages
+	"github.com/System233/enkit/lib/gmap"
+	bes "github.com/System233/enkit/third_party/bazel/buildeventstream" // Allows prototext to automatically decode embedded messages
 )
 
 func init() {

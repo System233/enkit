@@ -2,8 +2,8 @@ package astore
 
 import (
 	"context"
-	"github.com/enfabrica/enkit/astore/rpc/astore"
-	"github.com/enfabrica/enkit/lib/client"
+	"github.com/System233/enkit/astore/rpc/astore"
+	"github.com/System233/enkit/lib/client"
 )
 
 func (c *Client) Note(uid string, note string) ([]*astore.Artifact, error) {

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "bes_publisher_lib",
     srcs = ["main.go"],
-    importpath = "github.com/enfabrica/enkit/bes_publisher",
+    importpath = "github.com/System233/enkit/bes_publisher",
     visibility = ["//visibility:private"],
     deps = [
         "//bes_publisher/buildevent",

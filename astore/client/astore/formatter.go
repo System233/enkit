@@ -2,7 +2,7 @@ package astore
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/astore/rpc/astore"
+	"github.com/System233/enkit/astore/rpc/astore"
 	"os"
 	"time"
 )

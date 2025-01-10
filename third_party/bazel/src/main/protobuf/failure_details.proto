@@ -21,7 +21,7 @@ syntax = "proto3";
 
 package failure_details;
 
-option go_package = "github.com/enfabrica/enkit/third_party/bazel/proto";
+option go_package = "github.com/System233/enkit/third_party/bazel/proto";
 
 import "google/protobuf/descriptor.proto";
 

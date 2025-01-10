@@ -39,7 +39,7 @@ proto_library(
 
 go_proto_library(
     name = "proto",
-    importpath = "github.com/enfabrica/enkit/third_party/bazel/proto",
+    importpath = "github.com/System233/enkit/third_party/bazel/proto",
     protos = [
         ":command_line_proto",
         ":failure_details_proto",

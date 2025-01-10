@@ -7,7 +7,7 @@ go_library(
         "ports.go",
         "shutdown.go",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/knetwork",
+    importpath = "github.com/System233/enkit/lib/knetwork",
     visibility = ["//visibility:public"],
 )
 

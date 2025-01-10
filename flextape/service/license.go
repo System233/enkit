@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	fpb "github.com/enfabrica/enkit/flextape/proto"
+	fpb "github.com/System233/enkit/flextape/proto"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

@@ -2,7 +2,7 @@ package machine
 
 import (
 	"fmt"
-	"github.com/enfabrica/enkit/machinist/config"
+	"github.com/System233/enkit/machinist/config"
 	"github.com/spf13/cobra"
 	"os"
 	"strings"

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "client",
     srcs = ["client.go"],
-    importpath = "github.com/enfabrica/enkit/flextape/client",
+    importpath = "github.com/System233/enkit/flextape/client",
     visibility = [
         "//flextape/client/flextape_client:__pkg__",
     ],

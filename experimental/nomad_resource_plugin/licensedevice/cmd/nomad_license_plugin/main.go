@@ -13,8 +13,8 @@ import (
 	// use the stdlib
 	"golang.org/x/exp/slog"
 
-	"github.com/enfabrica/enkit/experimental/nomad_resource_plugin/licensedevice"
-	"github.com/enfabrica/enkit/lib/metrics"
+	"github.com/System233/enkit/experimental/nomad_resource_plugin/licensedevice"
+	"github.com/System233/enkit/lib/metrics"
 )
 
 func main() {

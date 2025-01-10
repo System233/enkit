@@ -19,7 +19,7 @@ proto_library(
 
 go_proto_library(
     name = "build_go_proto",
-    importpath = "github.com/enfabrica/enkit/lib/bazel/proto",
+    importpath = "github.com/System233/enkit/lib/bazel/proto",
     proto = ":build_proto",
     visibility = ["//lib/bazel:__subpackages__"],
 )
@@ -31,7 +31,7 @@ proto_library(
 
 go_proto_library(
     name = "workspace_log_go_proto",
-    importpath = "github.com/enfabrica/enkit/lib/bazel/proto",
+    importpath = "github.com/System233/enkit/lib/bazel/proto",
     proto = ":workspace_log_proto",
     visibility = ["//lib/bazel:__subpackages__"],
 )
@@ -42,6 +42,6 @@ go_library(
         ":build_go_proto",
         ":workspace_log_go_proto",
     ],
-    importpath = "github.com/enfabrica/enkit/lib/bazel/proto",
+    importpath = "github.com/System233/enkit/lib/bazel/proto",
     visibility = ["//lib/bazel:__subpackages__"],
 )
