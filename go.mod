@@ -1,4 +1,4 @@
-module github.com/enfabrica/enkit
+module github.com/System233/enkit
 
 go 1.23.0
 
